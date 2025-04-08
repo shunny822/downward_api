@@ -9,9 +9,9 @@ def info():
     node_name = os.getenv("NODE_NAME", "Unknown")
     pod_namespace = os.getenv("POD_NAMESPACE", "Unknown")
     return (
-        f"Container EDU | POD Working : {pod_name}</p>"
-        f" | nodename : {node_name}</p>"
-        f" | namespace : {pod_namespace}</p>"
+        f"Container EDU | POD Working : {pod_name}"
+        f" | nodename : {node_name}"
+        f" | namespace : {pod_namespace}"
     )
 
 if __name__ == "__main__":
