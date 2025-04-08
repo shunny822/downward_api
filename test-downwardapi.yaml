@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: flask-container
-      image: shunny822/downward-api:v1
+      image: shunny822/downward-api:v2
       ports:
         - containerPort: 5000
       env:
